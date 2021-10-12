@@ -9,7 +9,7 @@ const reader = readline.createInterface({
 
 
 
-reader.question("What would you like to calculate?", function(input){
+reader.question("What would you like to calculate? ", function(input){
 	tokens = input.split(' ');
 	
 	mathSymbol = tokens[0];
@@ -34,7 +34,7 @@ reader.question("What would you like to calculate?", function(input){
 	}
 
 	if (mathSymbol === '|'){
-		console.log(Math.sqrt, num1);
+		console.log(Math.sqrt(num1));
 	}
 
 
